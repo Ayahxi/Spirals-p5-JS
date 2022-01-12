@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spirals p5.JS</title>
+  </head>
+  <body>
+    <script src="utils.js"></script>
+    <script src="p5.js"></script>
+    <script src="main.js"></script>
+    <script src="/src/CCapture.js"></script>
+    <script src="/src/download.js"></script>
+    <script src="/src/webm-writer-0.2.0.js"></script>
+    <script>
+      var capturer = new CCapture({
+        format: "webm",
+        framerate: 60,
+        verbose: true,
+      });
+    </script>
+  </body>
+</html>
